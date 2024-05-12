@@ -11,10 +11,10 @@ namespace CoffeeShopDemoo
            BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
             customerManager.Save(new Entities.Customer
             {
-                DateOfBirth = new DateTime(2003, 11, 2),
+                DateOfBirth = new DateTime(2005, 11, 2),
                 FirstName = "Bilal",
                 LastName = "Tan",
-                NationalityId = "12619594344"
+                NationalityId = "12345678912"
             });
             Console.ReadLine();
         }
